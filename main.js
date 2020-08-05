@@ -23,6 +23,7 @@
     }
     taskTextBox.value = '';
   }
+  console.log('test');
   const displayTasks = () => {
     while (tbody.firstChild) {
       tbody.removeChild(tbody.firstChild);
